@@ -1,0 +1,14 @@
+set cbr92 [new Application/Traffic/CBR]
+$cbr92 attach-agent $udp92
+
+set cbr94 [new Application/Traffic/CBR]
+$cbr94 attach-agent $udp94
+
+set cbr96 [new Application/Traffic/CBR]
+$cbr96 attach-agent $udp96
+
+set cbr98 [new Application/Traffic/CBR]
+$cbr98 attach-agent $udp98
+
+set cbr910 [new Application/Traffic/CBR]
+$cbr910 attach-agent $udp910

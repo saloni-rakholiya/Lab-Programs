@@ -1,0 +1,4 @@
+*.nam
+*.tr
+*.ini
+__pycache__

@@ -1,0 +1,6 @@
+create table if not exists seats(
+    seat_no int primary key,
+    name varchar(50) not null, 
+    src varchar(100) not null, 
+    dest varchar(100) not null
+);
